@@ -28,8 +28,24 @@ header {
   width: 350px;
   height: 300px;
   float: left;
+  position: relative;
+}
+
+.article__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer {
-  width: 40px;
+  clear: both;
+  position: relative;
+}
+
+.footer__heading {
+  position: absolute;
+  left: -120px;
+  top: 50%;
+  background-color: yellow;
 }
