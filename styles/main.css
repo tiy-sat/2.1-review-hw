@@ -1,0 +1,35 @@
+img {
+  width: 100px;
+  height: 300px;
+  background-color: red;
+  display: inline-block
+}
+
+header {
+  height: 50px;
+  background-color: red;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.articles {
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+.article {
+  margin-right: 20px;
+  background-color: red;
+  width: 350px;
+  height: 300px;
+  float: left;
+}
+
+.footer {
+  width: 40px;
+}
